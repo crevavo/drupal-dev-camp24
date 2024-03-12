@@ -1,0 +1,4 @@
+name: devcamp
+recipe: drupal10
+config:
+  webroot: web

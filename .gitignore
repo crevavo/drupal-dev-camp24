@@ -6,57 +6,57 @@
 # https://www.drupal.org/docs/develop/using-composer
 
 # Ignore configuration files that may contain sensitive information
-/web/sites/*/*settings*.php
-/web/sites/*/*services*.yml
+/devcamp/web/sites/*/*settings*.php
+/devcamp/web/sites/*/*services*.yml
 
 # Ignore paths that may contain user-generated content
-/web/sites/*/files
-/web/sites/*/public
-/web/sites/*/private
-/web/sites/*/files-public
-/web/sites/*/files-private
+/devcamp/web/sites/*/files
+/devcamp/web/sites/*/public
+/devcamp/web/sites/*/private
+/devcamp/web/sites/*/files-public
+/devcamp/web/sites/*/files-private
 
 # Ignore paths that may contain temporary files
-/web/sites/*/translations
-/web/sites/*/tmp
-/web/sites/*/cache
+/devcamp/web/sites/*/translations
+/devcamp/web/sites/*/tmp
+/devcamp/web/sites/*/cache
 
 # Ignore drupal core (if not versioning drupal sources)
-/web/vendor
-/web/core
-/web/modules/README.txt
-/web/profiles/README.txt
-/web/sites/development.services.yml
-/web/sites/example.settings.local.php
-/web/sites/example.sites.php
-/web/sites/README.txt
-/web/themes/README.txt
-/web/.csslintrc
-/web/.editorconfig
-/web/.eslintignore
-/web/.eslintrc.json
-/web/.gitattributes
-/web/.htaccess
-/web/.ht.router.php
-/web/autoload.php
-/web/composer.json
-/web/composer.lock
-/web/example.gitignore
-/web/index.php
-/web/INSTALL.txt
-/web/LICENSE.txt
-/web/README.txt
-/web/robots.txt
-/web/update.php
-/web/web.config
+/devcamp/web/vendor
+/devcamp/web/core
+/devcamp/web/modules/README.txt
+/devcamp/web/profiles/README.txt
+/devcamp/web/sites/development.services.yml
+/devcamp/web/sites/example.settings.local.php
+/devcamp/web/sites/example.sites.php
+/devcamp/web/sites/README.txt
+/devcamp/web/themes/README.txt
+/devcamp/web/.csslintrc
+/devcamp/web/.editorconfig
+/devcamp/web/.eslintignore
+/devcamp/web/.eslintrc.json
+/devcamp/web/.gitattributes
+/devcamp/web/.htaccess
+/devcamp/web/.ht.router.php
+/devcamp/web/autoload.php
+/devcamp/web/composer.json
+/devcamp/web/composer.lock
+/devcamp/web/example.gitignore
+/devcamp/web/index.php
+/devcamp/web/INSTALL.txt
+/devcamp/web/LICENSE.txt
+/devcamp/web/README.txt
+/devcamp/web/robots.txt
+/devcamp/web/update.php
+/devcamp/web/devcamp/web.config
 
 # Ignore vendor dependencies and scripts
-/vendor
-/composer.phar
-/composer
-/robo.phar
-/robo
-/drush.phar
-/drush
-/drupal.phar
-/drupal
+/devcamp/vendor
+/devcamp/composer.phar
+/devcamp/composer
+/devcamp/robo.phar
+/devcamp/robo
+/devcamp/drush.phar
+/devcamp/drush
+/devcamp/drupal.phar
+/devcamp/drupal
